@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="StyleCR3.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+	<title>Insurance CR3</title>
+</head>
+
+<body>
+	<div class="container1">
+
+<!-- Header -->
+		<header>
+			<img class="CFIns" src="images/logo.png">
+			<a href="https://www.codefactory.wien">
+				<img id="bannerTop" src="images/banner.png">
+			</a>
+		</header>
+<!-- Navigation bar goes here -->
+		<nav class="navBar">
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Team</a></li>
+			</ul>
+		</nav>
+<!-- Main -->	
+	</div>
+<!--form for calculation -->
+
+	<div class="mainBox">
+		<div class="container2">
+			<h2 class="CarIns">Car Insurance</h2>
+			<div class="form">
+				<p class="great1">Great coverage begins </p>
+				<p class="great">with a custom quote</p>
+					<!-- <form class="form-inline"> -->
+					<div class="formContent">	
+						<div class="form-group1">
+							<label>Name</label>
+							<br>
+							<input type="text" name="name" id="name"><br>
+						</div>	
+						<div class="form-group1">
+							<label>Age</label>
+							<br>
+							<input type="number" name="age" id="age">
+							<br>	
+						</div>	
+						<div class="form-group2">
+							<label>Countries</label>
+							<br>
+							<select id="country">
+								<option value="Austria">Austria</option>
+								<option value="Hungary">Hungary</option>
+								<option value="Greece">Greece</option>
+							</select>
+							<br>
+						</div>	
+						<div class="form-group2">	
+							<label>Horsepower of your car</label>
+							<br>
+							<input type="number" name="horsepower" id="hp">
+							<br>
+						</div>		
+						<div class=button1>
+							<button id="button">Calculate</button>
+						</div>
+
+						<div id="result"><!-- Printed calculation goes here --></div>
+					</div>
+				<!-- </form> -->
+			</div>
+		</div>	
+<!--Text - "motivation"  -->
+		<div class="motivation">
+			<p class="firstText1">Un-complicating car coverage</p>
+			<p class="firstText">Understanding your coverage options should be so hard.</p>
+			<p class="firstText">We'll guide you through available coverage types,</p>
+			<p class="firstText">starting with who and what is covered.</p>
+
+	</div>
+<!-- first box on the left "coverage" -->
+	<div class ="infoBoxes">
+		<div class="box_left">	
+			<div class="coverage">
+				<p class="headerLeft1">What comes standard</p>
+				<p class="headerLeft2">The coverage you need</p>
+
+				<ul id="info">
+					<li>Bodily Injury Liability</li>
+					<li>Property Damage</li>
+					<li>Medical Payments</li>
+				</ul>
+
+				<p class="benefits">Benefits</p>
+				<p class="rates">12-month rate guarantee | 24/7 customer service | Lifetime Repair Guarantee</p>	
+			</div>
+		</div>
+		
+	<!-- second box on right "add-on protection"  -->
+	
+		<div class="box_right">
+			<div class="protection">
+				<p class="Right1">Add-on proection & coverage</p>
+				<p class="Right2">For more peace of mind</p>
+
+				<ul id="info">
+					<li>Better Car Replacement</li>
+					<li>Towing & Labor</li>
+					<li>Rental Car Coverage</li>
+				</ul>
+
+				<p class="benefits2">Earned Benefits</p>
+				<p class="accident">Accident Forgiveness | New Car Replacement&trade;</p>
+			</div>	
+		</div>
+	</div>	
+<!-- Footer goes here -->
+
+	<div class="footer"></div>
+		<footer>
+				<nav>
+					<ul>
+						<li><a href="#">Home</a></li>
+						<li><a href="#">Team</a></li>
+					</ul>
+				</nav>
+				<div><img id="footerLogo" src="images/logo-inv.png" alt="logo"></div>
+				<p>Kimberley Blankenhorn - Code Factory 2020</p>
+			</footer>	
+	</div>		
+
+
+
+<script type="text/javascript" src="CR3.js"></script>
+</body>
+</html>

@@ -39,5 +39,6 @@ document.getElementById("button").addEventListener("click", calcInsurance, false
 
 
 
+
 	
 

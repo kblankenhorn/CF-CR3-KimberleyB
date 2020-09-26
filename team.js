@@ -6,7 +6,7 @@ var doc = document.getElementById('employees');
 for(var i=0;i<teamJson.length;i++)
 {
     doc.innerHTML += `<li><p>Name: ${teamJson[i].Name} <br> Email: ${teamJson[i].Email} </p><br></li>`;
-    doc.innerHTML += `<img src="${teamJson[i].img}">`;
+    doc.innerHTML += `<img src="${teamJson[i].Img}">`;
 
 
     // if document is read = change color

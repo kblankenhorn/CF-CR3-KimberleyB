@@ -2,15 +2,15 @@ var team = `[
 {
     "Name":    "Sally",
     "email":    "sally@index.com",
-    "Img":      "src='https://www.publicdomainpictures.net/pictures/270000/nahled/avatar-people-person-business-u-15354603894rE.jpg'"
+    "Img":      "src='../images/britain.png'"
 },
 {
     "Name":    "John",
     "email":    "sally@index.com",
-    "Img":      "src='https://www.publicdomainpictures.net/pictures/270000/velka/avatar-people-person-business-.jpg'"
+    "Img":      "src='../images/people.jpg'"
 },
 {
     "Name":    "Donald",
     "email":    "donald@index.com",
-    "Img":      "src='https://www.kindpng.com/picc/m/53-532916_happy-man-png-download-transparent-cartoon-person-happy.png'"
-}]`
+    "Img":      "src='../images/people.jpg'"
+}]`    
